@@ -2,9 +2,9 @@
   "name": "pwa",
   "version": "1.0.0",
   "description": "progressive web app tutorial by Google web fundamentals",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/antonisPanos/pwa#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-http-to-https": "^1.1.4",
+    "node-fetch": "^2.3.0"
   }
 }
